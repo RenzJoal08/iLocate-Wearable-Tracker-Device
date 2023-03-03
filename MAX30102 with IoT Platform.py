@@ -143,7 +143,7 @@ while True:
         
         hrate = ir_reading
         r = red_reading/ir_reading
-        sp02= 130-25 * r #YOU CAN ADJUST THE COMPUTATION FOR THE CALIBRATION OF THE SENSOR, DEFAULT IS 110-25.
+        sp02= 130-25 * r #YOU CAN ADJUST THE COMPUTATION FOR THE CALIBRATION OF THE SENSOR, DEFAULT IS 110-25 * r.
   
         history.append(hrate)
        
