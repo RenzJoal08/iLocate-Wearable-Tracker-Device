@@ -21,15 +21,15 @@ heartrate_value = 0
 
 
 
-WIFI_SSID     = 'ZTE_2.4G_HkUDx4'
-WIFI_PASSWORD = 'CbCMFdGe'
+WIFI_SSID     = #YOUR WIFI NAME
+WIFI_PASSWORD = #YOUR WIFI PASSWORD
 
 mqtt_client_id      = bytes('client_'+'12321', 'utf-8') # Just a random client ID
 
 
 ADAFRUIT_IO_URL     = 'io.adafruit.com' 
-ADAFRUIT_USERNAME   = 'renzjoal'
-ADAFRUIT_IO_KEY     = 'aio_oPmZ02y7dZBxfesldiUqtbHNdxId'
+ADAFRUIT_USERNAME   = #YOUR ADAFRUIT USERNAME
+ADAFRUIT_IO_KEY     = #YOUR ADAFRUIT KEY
 
 
 HEART_RATE_FEED_ID   = 'heartrate'
@@ -102,9 +102,9 @@ except Exception as e:
 
 
      
-heart_rate_feed = bytes('{:s}/feeds/{:s}'.format(ADAFRUIT_USERNAME, HEART_RATE_FEED_ID), 'utf-8') # format - renzjoal/feeds/temp
-sp02_rate_feed = bytes('{:s}/feeds/{:s}'.format(ADAFRUIT_USERNAME, SP02_RATE_FEED_ID), 'utf-8') # format - renzjoal/feeds/ultrasonic
-body_temp_feed = bytes('{:s}/feeds/{:s}'.format(ADAFRUIT_USERNAME, BODY_TEMP_FEED_ID), 'utf-8') # format - renzjoal/feeds/ultrasonic
+heart_rate_feed = bytes('{:s}/feeds/{:s}'.format(ADAFRUIT_USERNAME, HEART_RATE_FEED_ID), 'utf-8') # format - renzjoal/feeds/heartrate
+sp02_rate_feed = bytes('{:s}/feeds/{:s}'.format(ADAFRUIT_USERNAME, SP02_RATE_FEED_ID), 'utf-8') # format - renzjoal/feeds/sp02
+body_temp_feed = bytes('{:s}/feeds/{:s}'.format(ADAFRUIT_USERNAME, BODY_TEMP_FEED_ID), 'utf-8') # format - renzjoal/feeds/bodytemperature
 
         
 
@@ -143,7 +143,7 @@ while True:
         
         hrate = ir_reading
         r = red_reading/ir_reading
-        sp02= 130-25 * r
+        sp02= 130-25 * r #YOU CAN ADJUST THE COMPUTATION FOR THE CALIBRATION OF THE SENSOR, DEFAULT IS 110-25.
   
         history.append(hrate)
        
