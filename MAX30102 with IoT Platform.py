@@ -117,15 +117,15 @@ def display_vitalsigns(t):
     
 
     client.publish(heart_rate_feed,    
-                  bytes(str(heartrate_value), 'utf-8'),   # Publishing Temprature to adafruit.io
+                  bytes(str(heartrate_value), 'utf-8'),   # Publishing Heart Rate to adafruit.io
                   qos=0)
     
     client.publish(sp02_rate_feed,    
-                  bytes(str(sp02), 'utf-8'),   # Publishing Ultrasonic to adafruit.io
+                  bytes(str(sp02), 'utf-8'),   # Publishing SP02 to adafruit.io
                   qos=0)
     
     client.publish(body_temp_feed,    
-                  bytes(str(body_temp), 'utf-8'),   # Publishing Temprature to adafruit.io
+                  bytes(str(body_temp), 'utf-8'),   # Publishing Body Temprature to adafruit.io
                   qos=0)
     
     
