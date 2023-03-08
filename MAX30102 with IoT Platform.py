@@ -24,7 +24,7 @@ heartrate_value = 0
 WIFI_SSID     = #YOUR WIFI NAME
 WIFI_PASSWORD = #YOUR WIFI PASSWORD
 
-mqtt_client_id      = bytes('client_'+'12321', 'utf-8') # Just a random client ID
+mqtt_client_id      = bytes('client_'+'12321', 'utf-8') 
 
 
 ADAFRUIT_IO_URL     = 'io.adafruit.com' 
@@ -192,7 +192,7 @@ while True:
 
 while True:
     try:
-        client.check_msg()                  # non blocking function
+        client.check_msg()                  
     except :
         client.disconnect()
         sys.exit()
