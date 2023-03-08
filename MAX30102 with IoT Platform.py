@@ -84,7 +84,7 @@ def connect_wifi():
         sys.exit()
         
 
-connect_wifi() # Connecting to WiFi Router 
+connect_wifi()
 
 
 client = MQTTClient(client_id=mqtt_client_id, 
