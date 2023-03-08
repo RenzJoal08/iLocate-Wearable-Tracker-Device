@@ -9,11 +9,20 @@ How the program works:
 3. Next, you need to have an account in https://io.adafruit.com/
 4. The following are the wiring of the MAX30102 in ESP 32 Module:
     
-    MAX30102                  ESP 32 Module
-      SDA                        Pin 22
-      SCL                        Pin 21
-      GND                         GND
-      VCC                         3V
+    MAX30102                  
+    ESP 32 Module
+    
+      SDA                        
+      Pin 22
+      
+      SCL                       
+      Pin 21
+      
+      GND                        
+      GND
+      
+      VCC                         
+      3V
       
 3. Execute and run the program in Thonny IDE.
 4. Then put your index finger in the MAX30102, and it will detect your heart rate (BPM), Oxygen Saturation (SP02), and Body Temperature.
