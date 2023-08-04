@@ -16,7 +16,7 @@ How the program works:
       - 1 Node MCU ESP 32 Module
       - 1 2600 mAh Powerbank (External Power Supply)
         
-2. Then, you need to download Arduino IDE in this link [https://thonny.org/](https://www.arduino.cc/en/software)
+2. Then, you need to download Arduino IDE in this link https://www.arduino.cc/en/software
    
 3. Next, you need to have an account in https://io.adafruit.com/
    
