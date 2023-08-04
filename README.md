@@ -19,8 +19,10 @@ How the program works:
 2. Then, you need to download Arduino IDE in this link https://www.arduino.cc/en/software
    
 3. Next, you need to have an account in https://io.adafruit.com/
+
+4. Also you need to have a Google Geolocation API account in https://developers.google.com/maps/documentation/geolocation/overview
    
-4. The following are the wiring of the 2 modules:
+5. The following are the wiring of the 2 modules:
 
  -----------------------------
     MAX30102 Sensor module components:
@@ -77,12 +79,12 @@ How the program works:
       USB Port
       Micro USB Port
          
-5. Execute and run the program in Arduino IDE.
+6. Execute and run the program in Arduino IDE.
    
-6. Then put your index finger in the MAX30102, and it will detect your heart rate (BPM), Oxygen Saturation (Sp02), and Body Temperature. Then, data will be sent to Adafruit IoT dashboard.
+7. Then put your index finger in the MAX30102, and it will detect your heart rate (BPM), Oxygen Saturation (Sp02), and Body Temperature. Then, data will be sent to Adafruit IoT dashboard.
    
-7. Download the IFTTT application in Play Store (for Android) or App Store (for iOS).
+8. Download the IFTTT application in Play Store (for Android) or App Store (for iOS).
    
-8. Open IFTTT application and activate all the applets for push notifications of irregularities
+9. Open IFTTT application and activate all the applets for push notifications of irregularities
 of vital signs of elders, and push notification of elder's real time location through Google
 Map link.
