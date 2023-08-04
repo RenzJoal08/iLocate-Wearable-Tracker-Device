@@ -20,7 +20,7 @@ How the program works:
    
 3. Next, you need to have an account in https://io.adafruit.com/
 
-4. Also you need to have a Google Geolocation API account in https://developers.google.com/maps/documentation/geolocation/overview
+4. Also, you need to have a Google Geolocation API account in https://developers.google.com/maps/documentation/geolocation/overview
    
 5. The following are the wiring of the 2 modules:
 
