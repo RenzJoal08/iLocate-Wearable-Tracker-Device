@@ -19,12 +19,12 @@
 
 
 //IFTTT Webhook URL
-const char* iftttWebhookURL_button = "https://maker.ifttt.com/trigger/button_alert/with/key/rqu-o7J-60NewMKBybS5S";
-const char* iftttWebhookURL_heartRate_High = "https://maker.ifttt.com/trigger/heart_rate_high/with/key/rqu-o7J-60NewMKBybS5S";
-const char* iftttWebhookURL_heartRate_Low = "https://maker.ifttt.com/trigger/heart_rate_low/with/key/rqu-o7J-60NewMKBybS5S";
-const char* iftttWebhookURL_spo2_Not_Normal = "https://maker.ifttt.com/trigger/spo2_not_normal/with/key/rqu-o7J-60NewMKBybS5S";
-const char* iftttWebhookURL_body_temp_High = "https://maker.ifttt.com/trigger/body_temp_high/with/key/rqu-o7J-60NewMKBybS5S";
-const char* iftttWebhookURL_body_temp_Low = "https://maker.ifttt.com/trigger/body_temp_low/with/key/rqu-o7J-60NewMKBybS5S";
+const char* iftttWebhookURL_button = "https://maker.ifttt.com/trigger/button_alert/with/key/YOUR IFTTT KEY";
+const char* iftttWebhookURL_heartRate_High = "https://maker.ifttt.com/trigger/heart_rate_high/with/key/YOUR IFTTT KEY";
+const char* iftttWebhookURL_heartRate_Low = "https://maker.ifttt.com/trigger/heart_rate_low/with/key/YOUR IFTTT KEY";
+const char* iftttWebhookURL_spo2_Not_Normal = "https://maker.ifttt.com/trigger/spo2_not_normal/with/key/YOUR IFTTT KEY";
+const char* iftttWebhookURL_body_temp_High = "https://maker.ifttt.com/trigger/body_temp_high/with/key/YOUR IFTTT KEY";
+const char* iftttWebhookURL_body_temp_Low = "https://maker.ifttt.com/trigger/body_temp_low/with/key/YOUR IFTTT KEY";
 
 
 
@@ -67,8 +67,8 @@ int count1=0;
 
 /************************* WiFi Access Point *********************************/
 
-#define WLAN_SSID "Reiner"
-#define WLAN_PASS "Sabado100700"
+#define WLAN_SSID "YOUR WIFI SSID"
+#define WLAN_PASS "YOUR WIFI PASSWORD"
 
 
 /************************* Adafruit.io Setup *********************************/
@@ -80,8 +80,8 @@ int count1=0;
 
 // Adafruit IO Account Configuration
 // (to obtain these values, visit https://io.adafruit.com and click on Active Key)
-#define AIO_USERNAME  "renzjoal"
-#define AIO_KEY       "aio_CjJn55CBadH09mqnwwF5PclhtT5C"
+#define AIO_USERNAME  "YOUR ADAFRUIT USERNAME"
+#define AIO_KEY       "YOUR ADAFRUIT KEY"
 
 
 
