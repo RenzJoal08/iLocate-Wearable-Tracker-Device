@@ -21,7 +21,8 @@ How the program works:
 3. Next, you need to have an account in https://io.adafruit.com/
    
 4. The following are the wiring of the 2 modules:
-   
+
+ -----------------------------
     MAX30102 Sensor module components:
     
     MAX30102 Sensor                  
