@@ -6,15 +6,15 @@
 #include <HTTPClient.h>
 #include "WiFiClientSecure.h"
 
-#define WLAN_SSID "Reiner"
-#define WLAN_PASS "Sabado100700"
+#define WLAN_SSID "YOUR WIFI SSID"
+#define WLAN_PASS "YOUR WIFI PASSWORD"
 
 const char* host = "www.googleapis.com";
 const char* apiEndpoint = "/geolocation/v1/geolocate?key=";
-const char* apiKey = "AIzaSyATMwqK8Iyk3zcD3aucZpB2C10PjD8St2Y";
+const char* apiKey = "YOUR GOOGLE GEOLOCATION KEY";
 
 
-const char* iftttWebhookURL_Google_Map = "https://maker.ifttt.com/trigger/google_link/with/key/rqu-o7J-60NewMKBybS5S";
+const char* iftttWebhookURL_Google_Map = "https://maker.ifttt.com/trigger/google_link/with/key/YOUR IFTTT KEY";
 
 const char* googleMap = "https://www.google.com/maps/dir/";
 
@@ -50,8 +50,8 @@ float startingLongitude = 120.983940;
 
 // Adafruit IO Account Configuration
 // (to obtain these values, visit https://io.adafruit.com and click on Active Key)
-#define AIO_USERNAME  "renzjoal"
-#define AIO_KEY       "aio_CjJn55CBadH09mqnwwF5PclhtT5C"
+#define AIO_USERNAME  "YOUR ADAFRUIT USERNAME"
+#define AIO_KEY       "YOUR ADAFRUIT KEY"
 
 
 
