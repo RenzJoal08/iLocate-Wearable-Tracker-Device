@@ -18,9 +18,9 @@ How the program works:
         
 2. Then, you need to download Arduino IDE in this link https://www.arduino.cc/en/software
    
-3. Next, you need to have an account in https://io.adafruit.com/
+3. Next, you need to have an account in Adafruit in this link https://io.adafruit.com/
 
-4. Also, you need to have a Google Geolocation API account in https://developers.google.com/maps/documentation/geolocation/overview
+4. Also, you need to have a Google Geolocation API account in this link https://developers.google.com/maps/documentation/geolocation/overview
    
 5. The following are the wiring of the 2 modules:
 
